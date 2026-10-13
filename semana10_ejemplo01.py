@@ -15,3 +15,6 @@ def obtener_mayores(a:int, b:int, c:int) -> int:
     salida:int = obtener_mayor(a, b)
     salida = obtener_mayor(salida, c)
     return salida
+
+print("Mayor de X o Y es ", obtener_mayor(x, y))
+print("Mayor de los tres números es ", obtener_mayores(x,y,z))
